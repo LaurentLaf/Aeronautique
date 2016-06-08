@@ -6,6 +6,7 @@ public class Avion {
 	private String nomAv;
 	private String loc;
 	private int capacite;
+	private int enPlus = 0;
 	
 	public Avion(String nom, String loc, int capacite) {
 		super();
@@ -13,6 +14,7 @@ public class Avion {
 		this.nomAv = nom;
 		this.loc = loc;
 		this.capacite = capacite;
+		this.enPlus=10;
 	}
 	
 	//Ajout de commentaire
