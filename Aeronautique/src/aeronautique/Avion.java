@@ -14,7 +14,11 @@ public class Avion {
 		this.nomAv = nom;
 		this.loc = loc;
 		this.capacite = capacite;
+<<<<<<< HEAD
 		this.enPlus = 15;
+=======
+		this.enPlus=10;
+>>>>>>> branch 'master' of https://github.com/LaurentLaf/Aeronautique.git
 	}
 	
 	//Ajout de commentaire
