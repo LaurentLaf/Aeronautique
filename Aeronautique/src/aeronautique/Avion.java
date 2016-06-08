@@ -27,6 +27,4 @@ public class Avion {
 	public String toString() {
 		return "Avion [numero=" + numAv + ", nom=" + nomAv + ", loc=" + loc + ", capacite=" + capacite + "]";
 	}
-	
-	
 }
