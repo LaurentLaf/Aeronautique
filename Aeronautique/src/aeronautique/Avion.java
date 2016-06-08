@@ -15,6 +15,14 @@ public class Avion {
 		this.capacite = capacite;
 	}
 
+	public String getNomAv() {
+		return nomAv;
+	}
+
+	public void setNomAv(String nomAv) {
+		this.nomAv = nomAv;
+	}
+
 	@Override
 	public String toString() {
 		return "Avion [numero=" + numAv + ", nom=" + nomAv + ", loc=" + loc + ", capacite=" + capacite + "]";
