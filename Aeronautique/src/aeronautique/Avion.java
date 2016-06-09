@@ -2,13 +2,13 @@ package aeronautique;
 
 public class Avion {
 
-	private int numAv = 0;
+	private int numAv = 1005;
 	private String nomAv;
 	private String loc;
 	private int capacite;
 	private int enPlus = 0;
 	
-	public Avion(String nom, String loc, int capacite) {
+	public Avion(int numAv, String nom, String loc, int capacite) {
 		super();
 		this.numAv = numAv++;
 		this.nomAv = nom;
@@ -17,21 +17,39 @@ public class Avion {
 		this.enPlus = 15;
 	}
 	
-	//Ajout de commentaire
 	
-	//Ajout d'un deuxième commentaire
 	
-	//Ajout d'un troisieme commentaire
-	
-	//Ajout d'un quatrième commentaire
-	
-	//Ajout d'un cinquième commentaire
-	
-	//Ajout d'un sixième commentaire
-	
-	//Ajout d'un septieme commentaire
-	
-	//Ajout d'un huitième commentaire
+	public void setNumAv(int numAv) {
+		this.numAv = numAv;
+	}
+
+
+
+	public String getLoc() {
+		return loc;
+	}
+
+	public void setLoc(String loc) {
+		this.loc = loc;
+	}
+
+
+
+	public int getCapacite() {
+		return capacite;
+	}
+
+
+
+	public void setCapacite(int capacite) {
+		this.capacite = capacite;
+	}
+
+
+
+	public int getNumAv() {
+		return numAv;
+	}
 	
 	public String getNomAv() {
 		return nomAv;
