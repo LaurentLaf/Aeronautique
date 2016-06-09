@@ -36,7 +36,7 @@ public class Principale {
 		
 		
 		
-		//Connexion.afficheSelectEtoile("AVION");
+		Connexion.afficheSelectEtoile("VOL");
 		
 		
 		//AvionDAO a = new AvionDAO();
